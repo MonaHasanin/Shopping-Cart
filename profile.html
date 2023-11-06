@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | HomePage by MonaGalal</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/styleFlex.css"> <!--
+    <link rel="stylesheet" href="css/login.css">
+-->     <link rel="stylesheet" href="css/register.css">
+   <link rel="stylesheet" href="css/products.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   
+   
+    <header>
+
+        
+            <div class="header-content">
+            <a href="index.html" class="brand">
+                Shopping Cart
+            </a>
+
+            <nav>
+                <ul id="links">
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+
+            <ul id="user_info">
+                <li><a href="./profile.html" id="user"></a></li>
+                <li class="shoppingCart" >
+                    <i class="fa fa-shopping-cart" style="font-size:20px;color:rgb(255, 255, 255)"></i>
+                    <div class="carts-products">
+                        <div></div>
+                         <a class="cartProducts" href="cartProducts.html">View all products</a>
+                    </div>
+                          <span class="badge"></span>
+                 </li> 
+                <li>
+                    <a href="./favorite.html">Favorites</a>
+                 </li>
+                <li>
+                    <a href="./myProduct.html">My Products</a>
+                 </li>
+                <li><a href="#" id="Logout">LogOut</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <!--
+                                            <i class="fa fa-shopping-cart" style="font-size:48px;color:rgb(201, 7, 7)"></i>
+
+        -->
+        <main>
+    
+    
+            <section class="profile-page">
+                <img src="./images/5856.jpg" alt="" class="profile-avatar">
+                <br>
+                <h2 id="user"></h2>
+                 <p id="email"></p>
+                <p id="productsLength">Products Length : <span></span></p>
+                <br><br>
+                <a href="./editProfile.html" style="background-color: #D8B6A4;">Edit Profile</a>
+
+            </section>
+            <div class="createProduct">
+                <a href="createProduct.html"
+                 class="create-product-icon">
+                 <i class="fa fa-plus">Create Product
+                 </i>
+                </a>
+             </div>
+        </main>
+
+     <footer class="footer" style=" margin-top: 10%;
+     ">                  <hr>
+
+     
+     &lt; &copy; MonaGalal &gt;
+    </footer>
+
+         <script src="js/profile.js"></script>
+       <script src="js/user.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/cartMenu.js"></script>
+ 
+</body>
+</html>

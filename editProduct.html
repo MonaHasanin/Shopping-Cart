@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | editProduct by MonaGalal</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--
+        <link rel="stylesheet" href="css/styleFlex.css">
+        <link rel="stylesheet" href="css/register.css">
+    -->
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   
+   
+    <header>
+
+        
+        <div class="container">
+            <div class="header-content">
+            <a href="index.html" class="brand">
+                Shopping Cart
+            </a>
+
+            
+            <nav>
+                <ul id="links">
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+
+            <ul id="user_info">
+                <li><a href="./profile.html" id="user"></a></li>
+                <li class="shoppingCart" >
+                    <i class="fa fa-shopping-cart" style="font-size:20px;color:rgb(255, 255, 255)"></i>
+                    <div class="carts-products">
+                        <div></div>
+                         <a class="cartProducts" href="cartProducts.html">View all products</a>
+                    </div>
+                          <span class="badge"></span>
+                 </li> 
+                <li>
+                    <a href="./favorite.html">Favorites</a>
+                 </li>
+                <li>
+                    <a href="./myProduct.html">My Products</a>
+                 </li>
+                <li><a href="#" id="Logout">LogOut</a></li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+        </header>
+
+        <!--
+                                            <i class="fa fa-shopping-cart" style="font-size:48px;color:rgb(201, 7, 7)"></i>
+
+        -->
+        <main>
+    
+            <section class="home"> 
+                <div class="container">
+<br>
+ 
+<section class="create-product-form">
+                    <br>
+
+                    <h2>Edit Product</h2>
+                    <br><br><br>
+
+                    <form action="updateForm" id="updateForm">
+                        <label>Name: </label>
+                        <input type="text"  id="name" placeholder="Name ..." />
+                        <label for="discription">Description: </label>
+                        <input type="text" id="discription" placeholder="Description ..." />
+                  
+                  
+                         <label for="size"> 
+                            Size: </label>
+               <select id="size">
+                <option value="" hidden>Select size </option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                     <br>
+                     <label for="upload_image">Image: </label>
+                     <input type="file" name="" id="upload_image">
+                     <input type="submit" value="update" id="createProduct" />
+                    </form>
+                       </section> 
+                    </div>
+                </section>
+        </main>
+        
+     <footer class="footer" style="    margin-top: 100%;
+     ">
+          <hr>
+     
+     &lt; &copy; MonaGalal &gt;
+    </footer>
+
+        <script src="js/user.js"></script>
+        <script src="js/cartMenu.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/editProduct.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | HomePage by MonaGalal</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/styleFlex.css"> <!--
+    <link rel="stylesheet" href="css/login.css">
+-->     <link rel="stylesheet" href="css/register.css">
+   <link rel="stylesheet" href="css/products.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   
+   
+    <header>
+
+        
+            <div class="header-content">
+            <a href="index.html" class="brand">
+                Shopping Cart
+            </a>
+
+            <nav>
+                <ul id="links">
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="register.html">Sign Up</a></li>
+            </ul>
+
+            <ul id="user_info">
+                 <li><a href="./profile.html" id="user"></a></li>
+                <li class="shoppingCart" >
+                    <i class="fa fa-shopping-cart" style="font-size:20px;color:rgb(255, 255, 255)"></i>
+                    <div class="carts-products">
+                        <div></div>
+                         <a class="cartProducts" href="cartProducts.html">View all products</a>
+                    </div>
+                          <span class="badge"></span>
+                 </li> 
+                <li>
+                    <a href="./favorite.html">Favorites</a>
+                 </li>
+                <li>
+                    <a href="./myProduct.html">My Products</a>
+                 </li>
+                <li><a href="#" id="Logout">LogOut</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <!--
+                                            <i class="fa fa-shopping-cart" style="font-size:48px;color:rgb(201, 7, 7)"></i>
+
+        -->
+        <main>
+    
+                    <h5>Welcome to our website!</h5>
+<br>
+<p id="paragraph" style="box-shadow: 0 0 10px white inset;
+">This is a simple shopping cart built with HTML | CSS | JSON | JavaScript </p>
+
+
+       <!--<section class="section-form">--> 
+        <section>
+                    <input type="search" name="search" id="search" placeholder="Search By name" />
+                </section>
+                    <br>
+                    <section id="imageBG">
+<img id="image" src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&q=80&w=1170&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+</section>      
+
+<div class="products-filter">
+    <h2>Filter By Size:</h2>
+    <br>
+    <select id="size-filter">
+        <option value="" hidden>Filter By Size</option>
+        <option value="all">All</option>
+        <option value="small">Small</option>
+        <option value="mediem">Mediem</option>
+        <option value="large">Large</option>
+    </select>
+</div>   
+<div class="products"></div>
+            
+                       <div class="createProduct">
+                       <a href="createProduct.html"
+                        class="create-product-icon">
+                        <i class="fa fa-plus">Create Product
+                        </i>
+                       </a>
+                    </div>
+
+ 
+        </main>
+
+     <footer class="footer" style=" margin-top: 10%;
+     ">                  <hr>
+
+     
+     &lt; &copy; MonaGalal &gt;
+    </footer>
+
+        <script src="js/user.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/cartMenu.js"></script>
+        <script src="js/script.js"></script>
+
+</body>
+</html>
